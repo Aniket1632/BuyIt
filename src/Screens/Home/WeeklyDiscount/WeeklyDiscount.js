@@ -4,8 +4,6 @@ import { calculatePrice } from "../../../utils/calculation";
 
 import styles from "./WeeklyDiscount.module.css";
 import ProductCard from "../../../Components/ProductCard/ProductCard";
-import sprayImg from "../../../Assets/Image/body_spray_product_image.png";
-import stayFreeImg from "../../../Assets/Image/stayfree_product_image.png";
 
 const WeeklyDiscount = () => {
   const { data: products } = useSelector((state) => state.products);
