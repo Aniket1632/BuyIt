@@ -1,0 +1,20 @@
+.prouctDetailcomponent {
+  margin: auto;
+  max-width: 1450px;
+}
+
+.productDetailInfoComponent {
+  padding-top: 100px;
+}
+
+.productDetailWeeklyDiscount {
+  padding-top: 150px;
+}
+
+.productDetailTopSellingsProduct {
+  padding-top: 120px;
+}
+
+.productDetailFooter {
+  padding-top: 150px;
+}

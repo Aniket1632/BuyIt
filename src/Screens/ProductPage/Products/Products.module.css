@@ -1,0 +1,21 @@
+.productPageProducts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.productContainer {
+  width: 22%;
+  padding-bottom: 70px;
+}
+
+.productCard {
+  background-color: #f3f3f3;
+  padding: 20px;
+  height: 400px;
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}

@@ -1,0 +1,30 @@
+.cart {
+  background: #00000012;
+}
+
+.cartContainer {
+  margin: auto;
+  max-width: 1450px;
+}
+
+.yourCart {
+  font-size: 30px;
+  display: block;
+  padding-top: 50px;
+}
+
+.cartIndex {
+  padding-top: 70px;
+}
+
+.cartIndexDetail {
+  display: flex;
+  color: #4a4b4d;
+  font-size: 20px;
+  padding-left: 10px;
+  gap: 354px;
+}
+
+.cartItem {
+  padding-top: 50px;
+}

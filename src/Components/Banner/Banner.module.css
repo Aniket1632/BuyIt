@@ -1,0 +1,137 @@
+.bannerContainer {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+.banner {
+  background: url("/src/Assets/Image/banner_background.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 69px;
+  line-height: 91px;
+
+  color: #ffffff;
+}
+
+.bannerHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bannerHeaderLeft {
+  display: inline-flex;
+  display: flex;
+  gap: 94px;
+  width: 58%;
+  color: #ffffff;
+}
+.bannerHeaderRight {
+  display: flex;
+  gap: 40px;
+  width: 10%;
+}
+
+.redDot {
+  position: absolute;
+  top: 24px;
+  right: 88px;
+}
+
+.bannerBottom {
+  width: 45%;
+  font-size: 27px;
+  line-height: 46px;
+  color: #ffffff;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
+.tagLine {
+  width: 50%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 100px;
+  color: #ffffff;
+  padding-top: 148px;
+}
+
+/* //tab */
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+  .banner {
+    background: url("/src/Assets/Image/banner_background.jpg") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    padding: 14px;
+  }
+
+  .bannerHeaderLeft {
+    display: none;
+  }
+
+  .bannerHeaderRight {
+    display: flex;
+    width: 30%;
+    gap: 75px;
+  }
+
+  .redDot {
+    position: absolute;
+    top: 36px;
+    right: 130px;
+  }
+}
+
+/* // phone */
+@media only screen and (max-width: 669px) {
+  .banner {
+    background: url("/src/Assets/Image/banner_background.jpg") no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 800px;
+    padding: 20px;
+  }
+
+  .bannerHeaderLeft {
+    display: inline-flex;
+    display: flex;
+    gap: 250px;
+    width: 58%;
+    color: #ffffff;
+  }
+
+  .bannerHeaderRight {
+    display: none;
+  }
+  .bannerHeaderLeft {
+    display: none;
+  }
+
+  .logo {
+    font-size: 40px;
+    color: #ffffff;
+  }
+
+  .tagLine {
+    width: 100%;
+    font-size: 35px;
+    line-height: 60px;
+    color: #ffffff;
+    padding-top: 80px;
+  }
+
+  .bannerBottom {
+    width: 100%;
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+    padding-bottom: 100px;
+    padding-top: 80px;
+  }
+}

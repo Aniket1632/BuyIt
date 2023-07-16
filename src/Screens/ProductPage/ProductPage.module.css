@@ -1,0 +1,11 @@
+.searchBarComponent {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.productsComponent {
+  padding-top: 70px;
+  max-width: 1450px;
+  margin: auto;
+}

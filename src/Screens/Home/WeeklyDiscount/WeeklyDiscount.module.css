@@ -1,0 +1,105 @@
+.weeklyDiscountContent {
+  display: flex;
+}
+
+.weeklyDiscountLeft {
+  width: 45%;
+}
+
+.weeklyDiscountImage {
+  width: 550px;
+  height: 700px;
+}
+
+.weeklyDiscountRight {
+  width: 60%;
+  padding-top: 20px;
+}
+
+.weeklyDiscountHeader {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.weeklyDiscountTitleColor {
+  color: #da8f12;
+}
+
+.weeklyDiscountProductCard {
+  gap: 100px;
+  display: flex;
+  padding-top: 50px;
+}
+
+.weeklyDiscountProductCard1 {
+  width: 40%;
+}
+
+/* //tab */
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+  .weeklyDiscountContent {
+    display: block;
+  }
+
+  .weeklyDiscountImage {
+    width: 800px;
+    height: 550px;
+  }
+  .weeklyDiscountRight {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .weeklyDiscountHeader {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .weeklyDiscountProductCard {
+    flex-wrap: wrap;
+  }
+  .weeklyDiscountProductCard1 {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+/* // phone */
+@media only screen and (max-width: 669px) {
+  .weeklyDiscountContent {
+    display: block;
+  }
+
+  .weeklyDiscountImage {
+    width: 345px;
+    height: 400px;
+  }
+
+  .weeklyDiscountRight {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .weeklyDiscountHeader {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .weeklyDiscountProductCard {
+    flex-wrap: wrap;
+  }
+  .weeklyDiscountProductCard1 {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+  }
+}

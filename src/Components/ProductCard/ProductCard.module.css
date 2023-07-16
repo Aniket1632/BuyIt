@@ -1,0 +1,49 @@
+.productContainer {
+  display: inline-block;
+}
+
+.productCard {
+  background-color: #f3f3f3;
+  padding: 20px;
+  height: 465px;
+  width: 394px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.productPrizeAndName {
+  text-align: center;
+  font-size: 24px;
+  line-height: 38px;
+  padding-top: 14px;
+  font-weight: 700;
+  color: black;
+}
+.productPrice {
+  display: flex;
+  font-weight: 300;
+  gap: 14px;
+  justify-content: center;
+  color: black;
+}
+.offerPrice {
+  text-decoration: line-through;
+}
+
+.productDiscount {
+  background-color: #d88b00;
+  position: absolute;
+  color: #ffffff;
+  top: 2px;
+  right: 1px;
+  padding: 14px 58px 14px 58px;
+}
+
+/* //tab */
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+  .productContainer {
+    display: inline-block;
+  }
+}

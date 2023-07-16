@@ -1,0 +1,85 @@
+.topSellingsContainer {
+  max-width: 1450px;
+  margin: auto;
+}
+
+.topSellingsHeader {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.topSellingsClothes {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.productView {
+  width: 30%;
+}
+
+.productContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.topsellingTitleColor {
+  color: #da8f12;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.topSellingsContent {
+  display: flex;
+}
+
+/* //tab */
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+  .productContainer {
+    flex-wrap: wrap;
+  }
+
+  .productView {
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 100px;
+    display: flex;
+  }
+}
+
+/* // phone */
+@media only screen and (max-width: 669px) {
+  .topSellingsHeader {
+    display: block;
+  }
+
+  .topsellingTitleColor {
+    color: #da8f12;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .topSellingsClothes {
+    font-size: 30px;
+  }
+
+  .productContainer {
+    flex-wrap: wrap;
+  }
+
+  .productView {
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 100px;
+    display: flex;
+  }
+}

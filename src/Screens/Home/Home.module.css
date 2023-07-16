@@ -1,0 +1,47 @@
+.container {
+  max-width: 1450px;
+  margin: auto;
+  padding: 15px;
+}
+
+.topSellingsComponent {
+  padding-top: 50px;
+}
+
+.weeklyDiscountComponent {
+  padding-top: 200px;
+}
+
+.topSellingsProductComponent {
+  padding-top: 120px;
+}
+
+.footerComponent {
+  padding-top: 150px;
+}
+
+/* //tab */
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+  .weeklyDiscountComponent {
+    padding-top: 100px;
+  }
+}
+
+/* // phone */
+@media only screen and (max-width: 669px) {
+  .topSellingsComponent {
+    padding-top: 10px;
+  }
+
+  .weeklyDiscountComponent {
+    padding-top: 0px;
+  }
+
+  .topSellingsProductComponent {
+    padding-top: 80px;
+  }
+
+  .footerComponent {
+    padding-top: 100px;
+  }
+}

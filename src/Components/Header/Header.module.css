@@ -1,0 +1,58 @@
+.Header {
+  background-color: #d88a03;
+}
+
+.logo {
+  font-family: "Mervale Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 69px;
+  line-height: 91px;
+
+  color: #ffffff;
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1450px;
+  margin: auto;
+  align-items: center;
+}
+
+.HeaderLeft {
+  display: inline-flex;
+  display: flex;
+  gap: 94px;
+  width: 58%;
+  color: #ffffff;
+}
+
+.bestSeller {
+  color: #ffffff;
+}
+
+.HeaderRight {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  width: 10%;
+}
+
+.cartCircle {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: red;
+  display: flex;
+  right: -23px;
+  top: -11px;
+  color: #ffffff;
+  border-radius: 14px;
+  height: 26px;
+  width: 26px;
+}
+
+.cartCounter {
+  font-size: 14px;
+}
